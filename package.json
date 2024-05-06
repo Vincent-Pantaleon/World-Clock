@@ -1,0 +1,19 @@
+{
+  "name": "time",
+  "version": "1.0.0",
+  "description": "A simple time app",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Vincent Pantaleon",
+  "license": "MIT",
+  "dependencies": {
+    "dayjs": "^1.11.11",
+    "micromodal": "^0.4.10"
+  },
+  "devDependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

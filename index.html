@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="dist/bundle.js" defer></script>
+    <title>World Clock</title>
+</head>
+<body>
+    <div class="container">
+        <div class="timezone-container">
+            <div class="timezone"></div>
+            <button id="edit-button"><img src="asset/icons/edit.png" alt="edit icon"></button>
+        </div>
+        <div class="time"></div>
+        <div class="date"></div>
+
+        <dialog class="modal">
+            <div class="modal-container">
+                <label for="timezone-selection">Change Timezone</label>
+                <form>
+                    <select name="timezone selection" id="timezone-selection">
+                        <!--TODO: populate options-->
+                    </select>
+                    <button id="apply">Apply</button>
+                </form>
+            </div>
+        </dialog>
+    </div>
+</body>
+</html>
